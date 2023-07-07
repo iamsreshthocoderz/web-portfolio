@@ -15,6 +15,21 @@ body {
 
 }
 
+.section-title {
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.section-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+
+}
+
 /* nav relented style */
 nav {
     display: flex;
@@ -87,6 +102,15 @@ nav a {
     font-size: 18px;
     font-weight: 400;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
+}
+
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
